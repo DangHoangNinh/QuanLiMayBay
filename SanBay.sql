@@ -1,0 +1,12 @@
+CREATE DATABASE SanBay;
+GO
+
+USE SanBay;
+GO
+
+CREATE TABLE MayBay (
+    MaMB INT IDENTITY PRIMARY KEY,
+    TenMayBay VARCHAR(100) NOT NULL,
+    NamSX INT NOT NULL, -- Use INT for year
+    SoGioBay FLOAT NOT NULL
+);
